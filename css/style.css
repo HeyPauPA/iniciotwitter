@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(168, 226, 248);
+    width: 70%;
+    /*la anchura, desde la izq*/
+    height: 100%;
+    /*la altura*/
+    margin: 0 auto;
+    /*Para centrar*/
+
+    display: flex;
+    /*para mover los hijos mas facil*/
+    flex-direction: row;
+    /*para decir en q sentido se colocan los elementos*/
+}
+
+.left {
+    background-color: rgb(171, 137, 202);
+    height: 100%;
+
+    align-items: center;
+    justify-content: start;
+}
+
+.right {
+    background-color: darkgrey;
+    height: 100%;
+
+/*    align-items: center;
+    justify-content: start;*/
+}
+
+/*
+.align-item{
+    align-items: center;
+}
+.justify-content{
+    justify-content:start;
+}
+*/
