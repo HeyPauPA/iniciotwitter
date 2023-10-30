@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    background-color: rgb(168, 226, 248);
+  /*  background-color: rgb(168, 226, 248);*/
     width: 70%;
     /*la anchura, desde la izq*/
     height: 100%;
@@ -23,19 +23,28 @@ body {
 }
 
 .left {
-    background-color: rgb(171, 137, 202);
+  /* background-color: rgb(171, 137, 202);*/
+    width: 50%;
     height: 100%;
-
+    
+    display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: end;
 }
-
+/*Ponemos el estilo anterior pero con img para q dentro de esde estilo, solo afecte a la imagen*/
+.left img 
+{
+ width: 75%;
+}
 .right {
-    background-color: darkgrey;
+    background-color: rgb(207, 67, 67);
+    width: 50%;
     height: 100%;
 
-/*    align-items: center;
-    justify-content: start;*/
+}
+.right h1
+{
+font-size: 50px;
 }
 
 /*
