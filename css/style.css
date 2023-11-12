@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  /*  background-color: rgb(168, 226, 248);*/
+    /*  background-color: rgb(168, 226, 248);*/
     width: 70%;
     /*la anchura, desde la izq*/
     height: 100%;
@@ -21,32 +21,74 @@ body {
     flex-direction: row;
     /*para decir en q sentido se colocan los elementos*/
 }
-
+/*---- LADO IZQUIERDO ----*/
 .left {
-  /* background-color: rgb(171, 137, 202);*/
+    /* background-color: rgb(171, 137, 202);*/
     width: 50%;
     height: 100%;
-    
+
     display: flex;
     align-items: center;
     justify-content: end;
 }
 /*Ponemos el estilo anterior pero con img para q dentro de esde estilo, solo afecte a la imagen*/
-.left img 
-{
- width: 75%;
+.left img {
+    width: 60%;
+    padding-right: 30%;
 }
+/*-------------------------*/
+
+/*---- LADO DERECHO ----*/
 .right {
-    background-color: rgb(207, 67, 67);
+    /*background-color: rgb(207, 67, 67);*/
     width: 50%;
     height: 100%;
 
 }
-.right h1
-{
-font-size: 50px;
+.right h1 {
+    font-size: 50px;
 }
+.right a{
+    text-decoration: none;
+}
+/*----------------------*/
 
+/*BOTONES DE LA PAGINA*/
+.Registry-buttons {
+    height: 30px;
+    width: 250px;
+
+    background-color: white;
+    border-radius: 80px;
+    border: solid rgb(231, 236, 238);
+    /*Sin el solid se vuelve el boton de color gris no es borde*/
+}
+.Create-Acount-Button {
+    height: 35px;
+    width: 250px;
+
+    color: white;
+
+    background-color: rgb(29, 155, 240);
+    border-radius: 80px;
+    border: solid rgb(29, 155, 240);
+}
+.little-size{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding-right: 30%;
+}
+.Iniciate-sesion {
+    height: 30px;
+    width: 250px;
+
+    color: rgb(29, 155, 240); 
+
+    background-color: white;
+    border-radius: 80px;
+    border: solid rgb(231, 236, 238);
+    /*Sin el solid se vuelve el boton de color gris no es borde*/
+}
 /*
 .align-item{
     align-items: center;
